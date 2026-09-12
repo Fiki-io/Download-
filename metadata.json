@@ -1,0 +1,7 @@
+{
+  "name": "YT Downloader",
+  "description": "Aplikasi pengunduh video dan audio YouTube dengan tema VS Code sederhana dan penyimpanan langsung ke perangkat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
