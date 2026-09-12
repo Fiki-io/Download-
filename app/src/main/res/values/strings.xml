@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">YT Downloader</string>
-    <string name="app_tagline">VS Code Style Media Downloader</string>
-    <string name="paste_url">Tempel Link</string>
+    <string name="app_tagline">Pengunduh Video &amp; Musik YouTube</string>
+    <string name="paste_url">Tempel Tautan</string>
     <string name="input_placeholder">https://www.youtube.com/watch?v=...</string>
-    <string name="fetch_button">Proses Link</string>
-    <string name="download_button">Download</string>
-    <string name="tab_converter">Downloader</string>
-    <string name="tab_history">Riwayat File</string>
-    <string name="tab_engine">Engine Web</string>
+    <string name="fetch_button">Cari Video</string>
+    <string name="download_button">Unduh</string>
+    <string name="tab_downloader">Unduh</string>
+    <string name="tab_history">Riwayat Unduhan</string>
 </resources>
+
 

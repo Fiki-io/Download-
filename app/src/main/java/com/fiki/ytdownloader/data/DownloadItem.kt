@@ -1,4 +1,4 @@
-package com.example.data
+package com.fiki.ytdownloader.data
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -11,7 +11,8 @@ data class DownloadRecord(
     val url: String,
     val format: String, // "MP4" or "MP3"
     val timestamp: Long = System.currentTimeMillis(),
-    val fileName: String = ""
+    val fileName: String = "",
+    val filePath: String = ""
 )
 
 class DownloadHistoryManager(context: Context) {
@@ -31,7 +32,8 @@ class DownloadHistoryManager(context: Context) {
                         url = obj.optString("url", ""),
                         format = obj.optString("format", "MP4"),
                         timestamp = obj.optLong("timestamp", System.currentTimeMillis()),
-                        fileName = obj.optString("fileName", "")
+                        fileName = obj.optString("fileName", ""),
+                        filePath = obj.optString("filePath", "")
                     )
                 )
             }
@@ -53,6 +55,7 @@ class DownloadHistoryManager(context: Context) {
                 put("format", item.format)
                 put("timestamp", item.timestamp)
                 put("fileName", item.fileName)
+                put("filePath", item.filePath)
             }
             jsonArray.put(obj)
         }
@@ -70,6 +73,7 @@ class DownloadHistoryManager(context: Context) {
                 put("format", item.format)
                 put("timestamp", item.timestamp)
                 put("fileName", item.fileName)
+                put("filePath", item.filePath)
             }
             jsonArray.put(obj)
         }

@@ -16,6 +16,10 @@
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# Keep data models and JSON serialization classes
+-keep class com.fiki.ytdownloader.data.** { *; }
+-keepclassmembers class com.fiki.ytdownloader.data.** { *; }
+-keep class com.fiki.ytdownloader.engine.** { *; }
+-keepclassmembers class com.fiki.ytdownloader.engine.** { *; }
+-keep class com.fiki.ytdownloader.util.** { *; }
+-keepclassmembers class com.fiki.ytdownloader.util.** { *; }

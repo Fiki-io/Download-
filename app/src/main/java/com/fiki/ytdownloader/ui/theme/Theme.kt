@@ -1,4 +1,4 @@
-package com.example.ui.theme
+package com.fiki.ytdownloader.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -28,12 +28,12 @@ private val VsCodeDarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun MyApplicationTheme(
+fun YTDownloaderTheme(
   darkTheme: Boolean = true,
   dynamicColor: Boolean = false,
   content: @Composable () -> Unit,
 ) {
-  // Always use the iconic VS Code Dark theme requested by user
+  // VS Code Dark theme
   MaterialTheme(
     colorScheme = VsCodeDarkColorScheme,
     typography = Typography,

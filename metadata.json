@@ -1,7 +1,7 @@
 {
   "name": "YT Downloader",
-  "description": "Aplikasi pengunduh video dan audio YouTube dengan tema VS Code sederhana dan penyimpanan langsung ke perangkat.",
+  "description": "Aplikasi pengunduh video dan audio YouTube dengan UI iOS Liquid Glass, animasi ambient halus, pencarian terintegrasi, dan share target.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
 

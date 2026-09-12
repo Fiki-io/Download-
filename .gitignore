@@ -16,3 +16,4 @@
 local.properties
 .env
 debug.keystore
+connect_emulator.bat
